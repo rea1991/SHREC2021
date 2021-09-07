@@ -23,4 +23,4 @@ https://www.youtube.com/watch?v=PrqMuoewyYk
 
 
 ### References
-[1]   A. Raffo, U. Fugacci, S. Biasotti, W. Rocchia, Y. Liu, E. Otu, R. Zwiggelaar, D. Hunter, E. I. Zacharaki, E. Psatha, D. Laskos, G. Arvanitis, K. Moustakas, T. Aderinwale, C. Christoffer, W.-H. Shin, D. Kihara, A. Giachetti, H.-N. Nguyen, T.-D. Nguyen, V.-T. Nguyen-Truong, D. Le-Thanh, H.-D. Nguyen, M.-T. Tran. "SHREC 2021: Retrieval and classification of protein surfaces equipped with physical and chemical properties", *Computers & Graphics*, vol. 99, pp. 1-21, 2021.
+[1]   A. Raffo, U. Fugacci, S. Biasotti, W. Rocchia, Y. Liu, E. Otu, R. Zwiggelaar, D. Hunter, E. I. Zacharaki, E. Psatha, D. Laskos, G. Arvanitis, K. Moustakas, T. Aderinwale, C. Christoffer, W.-H. Shin, D. Kihara, A. Giachetti, H.-N. Nguyen, T.-D. Nguyen, V.-T. Nguyen-Truong, D. Le-Thanh, H.-D. Nguyen, M.-T. Tran. "SHREC 2021: Retrieval and classification of protein surfaces equipped with physical and chemical properties", *Computers & Graphics*, vol. 99, pp. 1-21, 2021. DOI: 10.1016/j.cag.2021.06.010.
