@@ -1,4 +1,4 @@
-# SHREC 2021 track: Retrieval and classification of protein surfaces equipped with physical and chemical properties
+# SHREC 2021: Retrieval and classification of protein surfaces equipped with physical and chemical properties
 
 This repository is meant to make the benchmark introduced in [1] freely-accessible. For a complete description of both the benchmark and the methods that were tested on it, the reader is referred to [1].
 
