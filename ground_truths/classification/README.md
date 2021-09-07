@@ -6,4 +6,4 @@ line 28 or 29;
 - To produce the results in Table 6, set the variable coarse to 1 and uncomment:
 `macro_classes = load("macro_classes_0.95.txt");`
 - To produce the results in Table 7, set the variable coarse to 1 and uncomment:
-`macro_classes = load("macro_classes.txt");
+`macro_classes = load("macro_classes.txt");`
