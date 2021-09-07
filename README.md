@@ -1,13 +1,13 @@
 # SHREC 2021 track: Retrieval and classification of protein surfaces equipped with physical and chemical properties
 
 
-### On the dataset
+### The dataset
 A dataset of approximately 5,000 protein surfaces and corresponding physicochemical properties is provided. The dataset is already split into a training set (`dataset/training_set`) and a test set (`dataset/test_set`),  in the proportion 70%-30%. Each model is represented by an OFF file (i.e., a triangle mesh) and a TXT file: 
 - Each row of the TXT file corresponds to a vertex of the triangulation in the corresponding OFF file (in the same order).
 - Each column in the TXT file corresponds to a physicochemical property evaluated at the verteces in the OFF file. 
 For a description of the dataset, the reader is referred to [1] (Section 3.1).
 
-### Ground truths
+### The ground truths
 The benchmark comes with three ground truths:
 - The *PDB-based classification*, whose classification files are `ground_truths/classTraining.cla` for the training set and `ground_truths/classTest.cla` for the test set.
 - The *BLAST-based decomposition of level 3*, whose classification vector for the test set is found in `ground_truths/macro_classes_0.95.txt`.
