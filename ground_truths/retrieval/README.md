@@ -14,7 +14,7 @@ In the command window, type:
 
 ``[successi,classlabel]=valuta_classificazioneNN('ground2.txt','../../results/P1/geom/run1A.matrixPerm.txt')``
 
-The function ``valuta_classificazioneNN`` saves the TXT file ``classlabel.txt`, which will be used in Step 3A.
+The function ``valuta_classificazioneNN`` saves the TXT file ``classlabel.txt``, which will be used in Step 3A.
 
 ### STEP 3A (Table 3: NN, 1T, 2T, eM and DCG)
 To compute the retrieval measures NN, 1T, 2T, eM and DCG, one needs to use the routine ``psbTable.exe``. A precompiled version, available for Ubuntu 18.04, is provided. As an alternative, one could compile the source code (see the folder ``source_code``). To run the precompiled, type in the terminal the command:
