@@ -10,8 +10,8 @@ A dataset of approximately 5,000 protein surfaces and corresponding physicochemi
 ### The ground truths
 The benchmark comes with three ground truths:
 - The *PDB-based classification*, whose classification files are `ground_truths/classTraining.cla` for the training set and `ground_truths/classTest.cla` for the test set.
-- The *BLAST-based decomposition of level 3*, whose classification vector for the test set is found in `ground_truths/macro_classes_0.95.txt`.
-- The *BLAST-based community decomposition of level 2*, whose classification vector for the test set is found in `ground_truths/macro_classes.txt`.
+- The *BLAST-based decomposition of level 3*, whose classification vector for the test set is found in `ground_truths/macro_classes_GT2.txt`.
+- The *BLAST-based community decomposition of level 2*, whose classification vector for the test set is found in `ground_truths/macro_classes_GT3.txt`.
 
 ### Dissimilarity matrices from the SHREC participants and evaluation measures
 Five research groups registered to the track. The submitted dissimilarity matrices can be found inside the five folders in `results`. The codes that were used to compute the evaluation measures are found in the three folders inside  `ground_truths`. To compare the performance of the methods that make use of the physicochemical properties against the simple geometric models, we asked the participants to perform two tasks:
