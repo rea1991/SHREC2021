@@ -1,12 +1,13 @@
 
 ### STEP 1 (PREPROCESSING)
 Open MATLAB. In the command window, type:
-``permuteMatrix("../../results/P1/geom/run1A.matrix","./permutation.txt")`
+
+``permuteMatrix("../../results/P1/geom/run1A.matrix","./permutation.txt")``
 
 where: 
-*) P1,...,P5 are the five participants to the track.
-*) "geom" and "geomchem" identify, respectively, the folders containing the dissimilarity matrices when only geometry or geometry+physicochemistry is considered.
-The function permuteMatrix permutes the input dissimilarity matrix according to the file "permutation.txt", which is based on the ground truth.
+-  P1,...,P5 are the five participants to the track.
+-  "geom" and "geomchem" identify, respectively, the folders containing the dissimilarity matrices for Tasks A (only geometry) and B (geometry and physicochemical properties).
+The function permuteMatrix permutes the input dissimilarity matrix according to the file ``permutation.txt``, which is precomputed by the ground truth files.
 
 STEP 2
 Then, use the MATLAB code as follows:
