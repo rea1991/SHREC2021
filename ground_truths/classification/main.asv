@@ -1,26 +1,21 @@
 clc; clear; close all;
 
 % INPUT AND OUTPUT
-% This function requires two input files: 
+% This function takes as input: 
 % *) The ground truth classification vector "ground2.txt", here precomputed
 %    from the cla file; 
-% *) A dissimilarity matrix, here pre-permuted as described in the folder 
-% "ground_truths/retrieval".
+% *) A dissimilarity matrix.
 % It computes several statistics from the corresponding confusion matrix: 
-% TPR, TNR, PPV, NPV, ACC, F1.
+%TPR, TNR, PPV, NPV, ACC, F1.
 %
 % PARAMETERS
 % When "coarse" is set to 0, it computes the statistics provided in Table
 % 5 (PDB-based community decomposition). Optionally aggregates some classes
 % if "coarse" is set to 1:
 % *) Table 6 (BLAST-based community decomposition of level 3) is obtained
-% by setting ground_truth to "GT2".
-% *) Table 7 (BLAST-based community decomposition of level 2) is obtained
-% by setting ground_truth to "GT3".
-%
-% Additionally, the user should set the participant number P, the task type
-% ("geom" or "geomchem"), the run (1, 2 or 3; the only exception is for
-% P=5, that has a single run for the task "geomchem").
+% by using "macro_classes_0.95.txt".
+% *) Table 7 (3-level BLAST classification) is obtained by using
+% "macro_classes.txt".
 
 
 % Participant (integer from 1 to 5)
