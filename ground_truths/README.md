@@ -5,7 +5,8 @@
 Two files are available:
     - `ClassTraining.cla` is the PDB-based classification for the training set.
     - `ClassTest.cla` is the PDB-based classification for the test set.
-The file `ClassTest.cla` is used to generate: 
+    
+    The file `ClassTest.cla` is used to generate: 
     - Tables 3, 5 
     - Figures 11, 13, 14
 
