@@ -13,6 +13,7 @@ The function ``permuteMatrix`` permutes the input dissimilarity matrix according
 In the command window, type:
 
 ``[successi,classlabel]=valuta_classificazioneNN('ground2.txt','../../results/P1/geom/run1A.matrixPerm.txt')``
+
 The function ``valuta_classificazioneNN`` saves the TXT file ``classlabel.txt`, which will be used in the next and final step.
 
 ### STEP 3A (Table 3: NN, 1T, 2T, eM and DCG)
@@ -24,6 +25,7 @@ To compute the retrieval measures NN, 1T, 2T, eM and DCG, one needs to use the r
 To compute the precision recalls, one needs to use the routine ``prerec.exe``. A precompiled version is provided. To run it on Ubuntu 18.04, use the command:
 
 ``wine prerec.exe lista-protein.txt lista-protein.txt ../../results/P1/geom/run1A.matrixPerm.txt ./output/prerec/output.txt 20``
+
 One can use the MATLAB routines ``plotPrerec_geom.m``, ``plotPrerec_geomchem.m``, ``plotBestPrerec_geom.`` and ``plotBestPrerec_geomchem.m`` to plot the precision recalls. The mAP coefficients of Table 3 are obtained via the MATLAB routine ``mainMAP.m``.
 
 STEP 3c (Tables 4 and 8: ADRs)
