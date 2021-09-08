@@ -1,7 +1,8 @@
 
-STEP 1
-First, use the MATLAB code as follows:
-permuteMatrix("../../results/P1/geom/run1A.matrix","./permutation.txt")
+### STEP 1 (PREPROCESSING)
+Open MATLAB. In the command window, type:
+``permuteMatrix("../../results/P1/geom/run1A.matrix","./permutation.txt")`
+
 where: 
 *) P1,...,P5 are the five participants to the track.
 *) "geom" and "geomchem" identify, respectively, the folders containing the dissimilarity matrices when only geometry or geometry+physicochemistry is considered.
