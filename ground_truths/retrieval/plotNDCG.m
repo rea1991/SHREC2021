@@ -1,5 +1,17 @@
 clc; clear; close all;
 
+% INPUT AND OUTPUT
+% This function plot the NDCG curves displayed in Figures 12 and 19.
+%
+% PARAMETERS
+% TFigure 12 (BLAST-based community decomposition of level 3) is obtained
+% by setting ground_truth to "GT2". Figure 19 (BLAST-based community 
+% decomposition of level 2) is obtained by setting ground_truth to "GT3".
+%
+% Additionally, the user should set the participant number P, the task type
+% ("geom" or "geomchem"), the run (1, 2 or 3; the only exception is for
+% P=5, that has a single run for the task "geomchem").
+
 % Participant (integer from 1 to 5)
 P = 1;
 
