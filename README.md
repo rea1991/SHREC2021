@@ -1,4 +1,4 @@
-# SHREC 2021 track: Retrieval and classification of protein surfaces equipped with physical and chemical properties
+# SHREC 2021: Retrieval and classification of protein surfaces equipped with physical and chemical properties
 
 This repository is meant to make the benchmark introduced in [1] freely-accessible. For a complete description of both the benchmark and the methods that were tested on it, the reader is referred to [1].
 
@@ -14,7 +14,9 @@ The benchmark comes with three ground truths:
 - The *BLAST-based community decomposition of level 2*, whose classification vector for the test set is found in `ground_truths/macro_classes.txt`.
 
 ### Dissimilarity matrices from the SHREC participants and evaluation measures
-Five research groups registered to the track. The submitted dissimilarity matrices can be found inside the five folders in `results`. The codes that were used to compute the evaluation measures are found in the three folders inside  `ground_truths`. 
+Five research groups registered to the track. The submitted dissimilarity matrices can be found inside the five folders in `results`. The codes that were used to compute the evaluation measures are found in the three folders inside  `ground_truths`. To compare the performance of the methods that make use of the physicochemical properties against the simple geometric models, we asked the participants to perform two tasks:
+- Task A: only the OFF files of the models are considered (i.e. only the geometry is considered);
+- Task B: in addition to the geometry, the participant is asked to also consider the TXT files (physic- ochemical matching).
 
 
 ### Video presentation
