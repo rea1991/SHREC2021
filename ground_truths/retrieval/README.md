@@ -1,3 +1,4 @@
+The codes in this folder allows to reproduce the retrieval measures provided in the paper.
 
 ### STEP 1 (PREPROCESSING)
 Open MATLAB. In the command window, type:
