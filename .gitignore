@@ -1,3 +1,5 @@
 
 '.DS_Store banished!'
 dataset/training_set/OFFs/.DS_Store
+.DS_Store
+dataset/training_set/.DS_Store
